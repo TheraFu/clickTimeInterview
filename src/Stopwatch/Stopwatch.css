@@ -1,0 +1,12 @@
+.stopWatch{
+    background-color: #282c34 !important;
+    border-color: #8297a0 !important;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 100%;
+}
+
+.category {
+    font-family: "Arial Black", sans-serif;
+    font-size: 100%;
+    color: aliceblue;
+}
