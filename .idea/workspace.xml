@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="502b5e98-49e0-48b3-9567-2a59dcf5d6ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DVDStore/DVDStore.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DVDStore/DVDStore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DVDStore/DVDStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DVDStore/DVDStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stopwatch/Stopwatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stopwatch/Stopwatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TacoShop/TacoShop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/TacoShop/TacoShop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TacoShop/TacoShop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TacoShop/TacoShop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="502b5e98-49e0-48b3-9567-2a59dcf5d6ce" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -107,7 +93,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="105">
-                <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+                <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -136,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/Stopwatch/Stopwatch.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1590">
-              <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="n#!!block;n#componentDidMount#0;n#Stopwatch#0" />
@@ -241,34 +227,6 @@
               <item name="clicktime" type="b2602c69:ProjectViewProjectNode" />
               <item name="clicktime" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="clicktime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clicktime" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clicktime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clicktime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clicktime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clicktime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DVDStore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clicktime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clicktime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stopwatch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clicktime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clicktime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TacoShop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -288,6 +246,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots" />
       <recent name="$PROJECT_DIR$/src/DVDStore" />
       <recent name="$PROJECT_DIR$/src/Stopwatch" />
     </key>
@@ -315,18 +274,17 @@
       <option name="presentableId" value="Default" />
       <updated>1541706637086</updated>
       <workItem from="1541706638776" duration="51240000" />
-      <workItem from="1541839095442" duration="168000" />
+      <workItem from="1541839095442" duration="725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51408000" />
+    <option name="totallyTimeSpent" value="51965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -340,7 +298,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/src/Stopwatch/Stopwatch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
-          <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="n#!!block;n#componentDidMount#0;n#Stopwatch#0" />
@@ -497,7 +455,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="105">
-            <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
