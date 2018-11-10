@@ -1,0 +1,16 @@
+.taco-part{
+    font-family: "Avenir Next", sans-serif;
+    color: aliceblue;
+}
+
+.taco{
+    background-color: #282c34 !important;
+    border-color: #8297a0 !important;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 100%;
+}
+
+.dropdown-manu{
+    max-height: 180px;
+    overflow: auto;
+}

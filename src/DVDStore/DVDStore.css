@@ -1,0 +1,15 @@
+.storeItem {
+    background-color: #282c34 !important;
+    border-color: #8297a0 !important;
+    font-family: "Avenir Next", sans-serif;
+}
+
+.pic {
+    width: 70%;
+    height: auto;
+}
+
+.itemText {
+    font-size: 120%;
+    font-family: "Arial Black", sans-serif;
+}

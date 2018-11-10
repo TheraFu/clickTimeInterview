@@ -117,12 +117,12 @@ class Stopwatch extends Component {
                         <Button className="mx-3 float-right" outline color="info" onClick={this.reset}>Clear History</Button>
                     </div>
                     <div>
-                        {this.state.history.map((el, idx) =>
+                        {this.state.history.map((element, idx) =>
                             <WatchFace key={idx}
-                                   pos={el.pos}
-                                   start={el.start}
-                                   time={el.time}
-                                   other={<div><span className="category">Stop Time: </span><span>{formatDate(el.stop)}</span></div>}/>)}
+                                   pos={element.pos}
+                                   start={element.start}
+                                   time={element.time}
+                                   other={<div><span className="category">Stop Time: </span><span>{formatDate(element.stop)}</span></div>}/>)}
                                    </div>
                 </div>
             </div>
