@@ -19,7 +19,7 @@ let ItemCard = ({name, info, addfunc}) => {
     return (
         <Card body className="storeItem mb-5 mx-5">
             <div className="row">
-                <div className="col-2"> <img className="pic" src={info.picture}/></div>
+                <div className="col-2"> <img className="pic" src={info.picture} alt={name}/></div>
                 <div className="col-10">
                     <div className="row">
                         <h1 className="itemText col-10">{name}</h1>
@@ -39,10 +39,10 @@ let CartItem = ({name, info, addfunc, removefunc, deletefunc}) =>
     return (
         <Card body className="storeItem mb-5 mx-5">
             <div className="row">
-                <h1 className="itemText col-9">{name}</h1>
-                <div className="row col-3">
+                <h1 className="itemText col-8">{name}</h1>
+                <div className="row col-4">
                     <div className="col float-right">
-                    <Button outline color="info" onClick={()=>addfunc(name)}>+</Button>
+                    <Button outline color="info ml-5" onClick={()=>addfunc(name)}>+</Button>
                     <span className="mx-3">  {info.count}  </span>
                     <Button outline color="info" onClick={()=>removefunc(name)}>-</Button>
                     <Button className="ml-5" color="secondary" onClick={()=>deletefunc(name)}>X</Button></div>
@@ -68,7 +68,7 @@ class DVDStore extends Component {
             let key = Object.keys(ITEMS)[i];
             c[key] = {"price": ITEMS[key].price, "count": 0}
         }
-        this.state = {cart: c, itemCount: 0, totalPrice: 0, PAGE: 0, discount: 0, discounts: [0,0,0]};
+        this.state = {cart: c, itemCount: 0, totalPrice: 0, PAGE: 0, discount: 0};
         this.handleAdd = this.handleAdd.bind(this);
         this.handleRemove = this.handleRemove.bind(this);
         this.handleDelete = this.handleDelete.bind(this);
@@ -135,20 +135,20 @@ class DVDStore extends Component {
         let newPrice = 0;
         for (let i in Object.keys(ITEMS)){
             let key = Object.keys(ITEMS)[i];
-            if(newDiscounts[0]&&!this.state.discounts[0]){
+            if(newDiscounts[0]){
                 c[key].price *= 0.9
             }
-            if(newDiscounts[1] && key.includes("Blu-Ray") && !this.state.discounts[1]){
+            if(newDiscounts[1] && key.includes("Blu-Ray")){
                 c[key].price *= 0.85
             }
             newPrice += c[key].price * c[key].count
         }
-        if (this.state.itemCount>=100&&!this.state.discounts[2]){
-            newDiscounts[2] = 1;
+        if (this.state.itemCount>=100){
             newPrice *= 0.95
         }
+        console.log(this.state.totalPrice, newPrice);
         let discounted = this.state.totalPrice - newPrice;
-        this.setState({discount: discounted, discounts: newDiscounts});
+        this.setState({discount: discounted});
     }
 
 

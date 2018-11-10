@@ -96,7 +96,7 @@ async function getTacos() {
         let x = await fetch("https://tacos-ocecwkpxeq.now.sh/"+l[i]+"s");
         taco[l[i]] = await x.json();
     }
-    console.log(taco)
+    console.log(taco);
     return taco
 }
 
@@ -138,7 +138,7 @@ class TacoShop extends Component {
             }
         }
         this.setState({taco: {shell: "", baseLayer: "", mixin: "", condiment: "", seasoning: ""},
-        history: this.state.history.concat([this.state.taco])})
+        history: [this.state.taco].concat(this.state.history)})
     }
 
     randomTaco() {

@@ -77,13 +77,12 @@ class Stopwatch extends Component {
                 this.setState({pos: ["Location Unavailable"]});
             }
             this.setState({
-                history: this.state.history
-                    .concat([{
-                        "start": new Date(this.startTime).toString(),
-                        "time": formatTime(new Date(this.state.time-this.startTime)),
-                        "pos": this.state.pos,
-                        "stop": new Date(this.state.time).toString(),
-                    }])
+                history: [{
+                    "start": new Date(this.startTime).toString(),
+                    "time": formatTime(new Date(this.state.time-this.startTime)),
+                    "pos": this.state.pos,
+                    "stop": new Date(this.state.time).toString(),
+                }].concat(this.state.history)
             }, () => {
                 localStorage.setItem(
                     "history", JSON.stringify(this.state.history));
